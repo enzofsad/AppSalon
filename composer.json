@@ -1,0 +1,21 @@
+{
+    "name": "enzo/app-salon_php_mvc_js_sass",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Enzo\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "mensosad"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
